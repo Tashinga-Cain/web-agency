@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Tash Design</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="index.html" class="logo">
+        TASH<span>DESIGN.</span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open navigation"
+        aria-expanded="false">☰</button>
+
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html" class="nav-button active">Let's Talk</a>
+    </nav>
+
+</header>
+
+
+<section class="page-hero reveal">
+
+    <p class="eyebrow">CONTACT TASH DESIGN</p>
+
+    <h1>Let's talk about<br>
+        <span>your project.</span>
+    </h1>
+
+    <p>
+        Tell us about your business and what you need.
+        We'll help you bring your ideas to life.
+    </p>
+
+</section>
+
+
+<section class="contact-section section">
+
+
+    <div class="contact-details reveal">
+
+        <p class="eyebrow">GET IN TOUCH</p>
+
+        <h2>Let's create<br>
+            something great.</h2>
+
+        <p>
+            Whether you need a website, flyer, poster,
+            social media graphics or branding, we'd love
+            to hear from you.
+        </p>
+
+        <div class="contact-detail">
+            <span>01</span>
+            <div>
+                <h3>Website Design</h3>
+                <p>Professional online experiences.</p>
+            </div>
+        </div>
+
+        <div class="contact-detail">
+            <span>02</span>
+            <div>
+                <h3>Graphic Design</h3>
+                <p>Flyers, posters and social media graphics.</p>
+            </div>
+        </div>
+
+        <div class="contact-detail">
+            <span>03</span>
+            <div>
+                <h3>Branding</h3>
+                <p>Logos and business identity designs.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <form class="contact-form reveal" id="contactForm">
+
+        <h2>Tell us about your project.</h2>
+
+        <label for="name">Your Name</label>
+
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+        >
+
+
+        <label for="email">Email Address</label>
+
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+        >
+
+
+        <label for="service">What do you need?</label>
+
+        <select id="service" name="service" required>
+
+            <option value="">Select a service</option>
+
+            <option value="Website Design">Website Design</option>
+
+            <option value="Flyers and Posters">Flyers & Posters</option>
+
+            <option value="Social Media Design">
+                Social Media Design
+            </option>
+
+            <option value="Logo and Branding">
+                Logo & Branding
+            </option>
+
+            <option value="Business Cards and Letterheads">
+                Business Cards & Letterheads
+            </option>
+
+            <option value="Other">Other</option>
+
+        </select>
+
+
+        <label for="budget">Estimated Budget</label>
+
+        <select id="budget" name="budget" required>
+
+            <option value="">Select your budget</option>
+
+            <option value="Under R500">Under R500</option>
+
+            <option value="R500 - R1500">R500 - R1,500</option>
+
+            <option value="R1500 - R3000">R1,500 - R3,000</option>
+
+            <option value="R3000+">R3,000+</option>
+
+            <option value="Not sure yet">Not sure yet</option>
+
+        </select>
+
+
+        <label for="message">Project Details</label>
+
+        <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Tell us what you have in mind..."
+            required
+        ></textarea>
+
+
+        <button type="submit" class="btn btn-primary">
+            Send Enquiry →
+        </button>
+
+        <p id="formMessage" class="form-message" aria-live="polite"></p>
+
+    </form>
+
+</section>
+
+
+<footer class="footer">
+
+    <a href="index.html" class="logo">
+        TASH<span>DESIGN.</span>
+    </a>
+
+    <p>Creative design. Real impact.</p>
+
+    <p>© <span class="current-year"></span> Tash Design.
+        All rights reserved.</p>
+
+</footer>
+
+</body>
+</html>
